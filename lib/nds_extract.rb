@@ -32,7 +32,9 @@ def total_gross(source)
   # Write this implementation
   #
   # Should use methods:
-  # 1. directors_totals: returns a Hash of { dir_name => gross }
+  # 1. directors_totals: returns a Hash of { dir_name => gross } #Visit each key (i.e. director name), look up the value in the hash
+  # returned by directors_totals, and add it to a running total. When done,
+  # return the total
   directors_totals = {"Stephen Spielberg"=>1357566430,
         "Russo Brothers"=>2281002470,
         "James Cameron"=>2571020373,
@@ -55,8 +57,7 @@ end
         "Quentin Tarantino",
         "Martin Scorsese",
         "Francis Ford Coppola"]
-  # Visit each key (i.e. director name), look up the value in the hash
-  # returned by directors_totals, and add it to a running total. When done,
-  # return the total
+ 
+  
 
 
